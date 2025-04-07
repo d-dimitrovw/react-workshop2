@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 
 export default function Login({
@@ -7,12 +6,12 @@ export default function Login({
     const navigate = useNavigate();
     const loginAction = (formData) => {
         const email = formData.get('email');
+
+        onLogin(email);
+    
+        navigate('/games');
     }
     
-    onLogin(email);
-
-    navigate('/games');
-
     return (
         <section id="login-page" className="auth">
             <form id="login" action={loginAction}> 
