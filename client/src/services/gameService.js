@@ -10,14 +10,18 @@ export default {
         
         return games;
     },
+    
+    getOne(gameId) {
+        return request.get(`${baseUrl}/${gameId}`);
+    }, 
 
     create(gameData) {
         return request.post(baseUrl, gameData);
     },
 
-    getOne(gameId) {
-        return request.get(`${baseUrl}/${gameId}`);
-    }, 
+    edit(gameId, gameData) {
+        return request.put(`${baseUrl}/${gameId}`, { ...gameData, _id: gameId });
+    },
 
     delete(gameId) {
         return request.delete(`${baseUrl}/${gameId}`);
