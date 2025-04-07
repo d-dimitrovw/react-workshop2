@@ -19,4 +19,8 @@ export default {
         return request.get(`${baseUrl}/${gameId}`);
     }, 
 
+    delete(gameId) {
+        return request.delete(`${baseUrl}/${gameId}`);
+    },
+
 } 
