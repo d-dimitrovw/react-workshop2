@@ -1,0 +1,26 @@
+{
+    "f811370e-ecca-457e-8cb5-814e4fec83a4": {
+        "title": "Minecraft",
+        "category": "Sandbox",
+        "maxLevel": "1",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Minecraft_2024_cover_art.png",
+        "summary": "In Minecraft, players explore a procedurally generated, three-dimensional world with virtually infinite terrain made up of voxels. Players can discover and extract raw materials, craft tools and items, and build structures, earthworks, and machines. Depending on their chosen game mode, players can fight hostile mobs, as well as cooperate with or compete against other players in multiplayer.",
+        "_id": "f811370e-ecca-457e-8cb5-814e4fec83a4"
+    },
+    "7a05b73c-bb64-43a7-b643-4bf5ad4dc7a3": {
+        "title": "Grand Theft Auto V",
+        "category": "Action-Adventure",
+        "maxLevel": "1",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+        "summary": "Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa (Ned Luke), street gangster Franklin Clinton (Shawn Fonteno), and drug dealer and gunrunner Trevor Philips (Steven Ogg), and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals.",
+        "_id": "7a05b73c-bb64-43a7-b643-4bf5ad4dc7a3"
+    },
+    "2b23e690-9429-4f88-91f6-7f43983c946f": {
+        "title": "Fortnite",
+        "category": "Battle Royal",
+        "maxLevel": "1",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0PegYTgX9prtdwj5A7OJx_5n3RT-GJnCKgg&s",
+        "summary": "100 players skydive onto an island and scavenge for gear to defend themselves from other players. Players can fight alone, or with up to three other players.",
+        "_id": "2b23e690-9429-4f88-91f6-7f43983c946f"
+    }
+}
