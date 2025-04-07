@@ -22,5 +22,13 @@
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0PegYTgX9prtdwj5A7OJx_5n3RT-GJnCKgg&s",
         "summary": "100 players skydive onto an island and scavenge for gear to defend themselves from other players. Players can fight alone, or with up to three other players.",
         "_id": "2b23e690-9429-4f88-91f6-7f43983c946f"
+    },
+    "e1426b43-ce88-439d-a9f2-c31adb6ca21b": {
+        "title": "L.A. Noire",
+        "category": "Action-Adventure",
+        "maxLevel": "1",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/LA-Noire-Box-Art.jpg",
+        "summary": "Solve brutal crimes, plots, and conspiracies inspired by real crimes from 1947 Los Angeles, one of the most corrupt and violent times in L.A. history.",
+        "_id": "e1426b43-ce88-439d-a9f2-c31adb6ca21b"
     }
 }
