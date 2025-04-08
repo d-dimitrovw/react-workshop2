@@ -9,6 +9,7 @@ import GameCreate from './components/game-create/GameCreate'
 import GameDetails from './components/game-details/GameDetails'
 import GameEdit from './components/game-edit/GameEdit'
 import { useState } from 'react'
+import { UserContext } from './contexts/userContext'
 
 function App() {
     const [authData, setAuthData] = useState({});
@@ -19,17 +20,19 @@ function App() {
     }
 
     return (
+        <UserContext.Provider value={{...authData, userLoginHandler}}>
+
         <div id="box">
             <Header />
 
             <main id="main-content">
                 <Routes>
                     <Route index element={<Home />} />
-                    <Route path='/login' element={<Login onLogin={userLoginHandler} />} />
+                    <Route path='/login' element={<Login />} />
                     <Route path='/register' element={<Register />} />
                     <Route path='/games' element={<GameCatalog />} />
                     <Route path='/games/create' element={<GameCreate />} />
-                    <Route path='/games/:gameId/details' element={<GameDetails email={authData.email} />} />
+                    <Route path='/games/:gameId/details' element={<GameDetails />} />
                     <Route path='/games/:gameId/edit' element={<GameEdit />} />
 
 
@@ -38,6 +41,7 @@ function App() {
             </main>
 
         </div>
+        </UserContext.Provider>
     )
 }
 
