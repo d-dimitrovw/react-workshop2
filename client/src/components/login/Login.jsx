@@ -6,7 +6,7 @@ export default function Login({
     onLogin,
 }) {
     const navigate = useNavigate();
-    const {login} = useLogin();
+    const { login } = useLogin();
 
     
     const loginHandler = async (_, formData) => {
